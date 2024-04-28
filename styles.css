@@ -13,6 +13,7 @@
 html {
     width: 100%;
     height: 100%;
+    overflow-x:hidden;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Permanent Marker', sans-serif;
+    overflow-x:hidden;
 }
 
 .logo {
