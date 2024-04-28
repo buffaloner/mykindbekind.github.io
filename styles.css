@@ -45,7 +45,11 @@ body {
     color: white;
     text-align: center;
     padding: 12px 30px;
-    font-size: 8.5rem;
+    font-size: 6.5rem;
+    max-width: 90%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
     font-family: 'Graffiti', cursive;
     font-weight: 400;
 }
