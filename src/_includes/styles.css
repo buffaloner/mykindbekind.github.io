@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Kaushan+Script&family=Mr+Dafoe&family=Permanent+Marker&family=Playball&family=Satisfy&family=Seaweed+Script&family=Yellowtail&display=swap');
+
+@font-face {
+    font-family: Graffiti;
+    src: url("fonts/GraffitiFont.otf") format("opentype");
+}
+
+
+[data-link] {
+    cursor: pointer;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: 'Permanent Marker', sans-serif;
+    overflow-x:hidden;
+}
+
+.logo {
+    max-width: 90%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+    -webkit-filter: invert(100%);
+}
+
+#quotes {
+    text-align: center;
+    text-justify: distribute;
+    color: white;
+    font-size: 2.5rem;
+    padding: 12px 30px;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    padding: 12px 30px;
+    font-size: 6.5rem;
+    max-width: 90%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+    font-family: 'Graffiti', cursive;
+    font-weight: 400;
+}
+
+blockquote {
+    border: none;
+    margin-bottom: -30px;
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-left: 0.4em;
+}
+
+blockquote h3 {
+    font-size: 21px;
+}
+
+blockquote h3:before {
+    padding: 12px 30px;
+    content: "\201C";
+    font-weight: bold;
+    font-size: 100px;
+    color: #4d5590;
+    position: absolute;
+    top: -0.2em;
+    left: -0.5em;
+    font-family: 'Georgia';
+}
+
+blockquote h3:after {
+    content: "\201D";
+    font-weight: bold;
+    font-size: 100px;
+    color: #4d5590;
+    position: absolute;
+    bottom: -0.6em;
+    right: 0;
+    font-family: 'Georgia';
+    padding: 12px 30px;
+}
