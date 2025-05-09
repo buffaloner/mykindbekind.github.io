@@ -1,12 +1,15 @@
+// use deleteSync to ensure live updates to deleted files
+import { deleteSync as fullclean } from 'del';
+
 export default async function(eleventyConfig) {
-	// Configure Eleventy
+
+	fullclean('docs/*');
 	eleventyConfig.addPassthroughCopy(
-		[	'src/fonts',
-			'src/img',
-		{ 	'src/_includes/img': 'img',
+		{ 	'src/fonts': 'fonts',
+			'src/img': 'img',
 			'src/_includes/styles.css': 'styles.css',
 			'src/_includes/scripts.js': 'scripts.js' 
-		}]
+		}
 	);
 	return {
 		dir: {
