@@ -47,8 +47,9 @@ body {
     height: auto;
     display: table;
     margin: 0 auto;
-    font-family: 'Molle', cursive;
+    font-family: "Molle", cursive;
     font-weight: 400;
+    font-style: italic;
 }
 
 blockquote {
