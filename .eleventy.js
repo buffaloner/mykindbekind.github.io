@@ -5,7 +5,6 @@ export default async function(eleventyConfig) {
 // Full clean runs each time... meaning --dryrun will clean out the docs/ directory,
 // but builds will be clean
 	fullclean('docs/*');
-	eleventyConfig.addPassthroughCopy('src/.nojekyll') // gh-pages --nojekyll work around
 	eleventyConfig.addPassthroughCopy(
 		{ 	'src/fonts': 'fonts',
 			'src/img': 'img',
